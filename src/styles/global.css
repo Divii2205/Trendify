@@ -1,0 +1,17 @@
+:root {
+  --color-white: ${COLOR_PALETTE.white};
+  --color-light-gray: ${COLOR_PALETTE.lightGray};
+  --color-soft-beige: ${COLOR_PALETTE.softBeige};
+  --color-pastel-blue: ${COLOR_PALETTE.pastelBlue};
+  --color-blush-pink: ${COLOR_PALETTE.blushPink};
+
+  --font-family-primary: 'Inter', sans-serif;
+  --border-radius: 12px;
+  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: var(--font-family-primary);
+  background-color: var(--color-light-gray);
+  color: #333;
+}

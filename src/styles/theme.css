@@ -1,0 +1,40 @@
+:root {
+    --color-background-light: #ffffff;
+    --color-text-light: #000000;
+    --color-primary-light: #3498db;
+    --color-secondary-light: #2ecc71;
+  
+    --color-background-dark: #121212;
+    --color-text-dark: #ffffff;
+    --color-primary-dark: #1e88e5;
+    --color-secondary-dark: #4caf50;
+  
+    --font-family: 'Inter', sans-serif;
+    --border-radius: 8px;
+    --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  body {
+    font-family: var(--font-family);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  body.light-theme {
+    background-color: var(--color-background-light);
+    color: var(--color-text-light);
+  }
+  
+  body.dark-theme {
+    background-color: var(--color-background-dark);
+    color: var(--color-text-dark);
+  }
+  
+  .light-theme .button {
+    background-color: var(--color-primary-light);
+    color: white;
+  }
+  
+  .dark-theme .button {
+    background-color: var(--color-primary-dark);
+    color: white;
+  }
